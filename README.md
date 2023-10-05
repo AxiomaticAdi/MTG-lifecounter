@@ -17,4 +17,4 @@ MTG Life Counter App is designed for enthusiasts of Magic the Gathering, specifi
 
 - **TypeScript**: Transitioning from JavaScript, this was my first project built using TypeScript
 
-- **Dynamic UI Creation**: The project challenged me to create a dynamic and responsive UI that caters to the users' needs, making the app engaging and easy to use
+- **Dynamic UI Creation**: The project challenged me to create an intuitive and highly responsive UI to improve (rather than distract from) the flow of a multiplayer MTG game
