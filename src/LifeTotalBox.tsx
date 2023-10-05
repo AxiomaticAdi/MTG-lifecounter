@@ -1,4 +1,6 @@
 import { useState } from "react";
+import arrow_next from "../public/arrow-next.svg";
+import arrow_prev from "../public/arrow-prev.svg";
 
 export function LifeTotalBox() {
 	const [lifeTotal, setLifeTotal] = useState(40);
@@ -19,11 +21,7 @@ export function LifeTotalBox() {
 	return (
 		<div id="life-container">
 			<button className="life-arrow-button" onClick={decrementLifeTotal}>
-				<img
-					className="life-arrow-img"
-					src="../public/arrow-prev.svg"
-					alt="Decrement"
-				/>
+				<img className="life-arrow-img" src={arrow_prev} alt="Decrement" />
 			</button>
 			<input
 				className="life-input"
@@ -32,11 +30,7 @@ export function LifeTotalBox() {
 				onChange={handleInputChange}
 			/>
 			<button className="life-arrow-button" onClick={incrementLifeTotal}>
-				<img
-					className="life-arrow-img"
-					src="../public/arrow-next.svg"
-					alt="Increment"
-				/>
+				<img className="life-arrow-img" src={arrow_next} alt="Increment" />
 			</button>
 		</div>
 	);
