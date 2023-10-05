@@ -4,7 +4,7 @@ import { LifeTotalBox } from "./LifeTotalBox";
 export function PlayerBox() {
 	const [playerName, setPlayerName] = useState("");
 
-	const handleInputChange = (e) => {
+	const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 		setPlayerName(e.target.value);
 	};
 

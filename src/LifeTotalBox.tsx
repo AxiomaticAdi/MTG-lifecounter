@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export function LifeTotalBox() {
 	const [lifeTotal, setLifeTotal] = useState(40);
@@ -9,7 +9,7 @@ export function LifeTotalBox() {
 	const decrementLifeTotal = () => {
 		setLifeTotal((prev) => prev - 1);
 	};
-	const handleInputChange = (e) => {
+	const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
 		const value = parseInt(e.target.value, 10);
 		if (!isNaN(value)) {
 			setLifeTotal(value);
