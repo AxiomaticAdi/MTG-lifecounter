@@ -1,27 +1,20 @@
-# React + TypeScript + Vite
+# MTG Life Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+MTG Life Counter App is designed for enthusiasts of Magic the Gathering, specifically for the Commander / EDH format. The app allows players to seamlessly track their life totals, ensuring an immersive and efficient gaming experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Life Tracking**: Real-time life total tracking for all players
+- **Dynamic UI**: Intuitive interface for adding or removing players
+- **Commander/EDH Support**: Specifically tailored for the Commander / EDH format of Magic the Gathering
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Learnings
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: This was my inaugural project using React. Explored using components and state management
+- **Vite**: First project using Vite, which improved the app's performance and development speed
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- **TypeScript**: Transitioning from JavaScript, this was my first project built using TypeScript
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Dynamic UI Creation**: The project challenged me to create a dynamic and responsive UI that caters to the users' needs, making the app engaging and easy to use
