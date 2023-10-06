@@ -9,7 +9,7 @@ export function PlayerBox() {
 	};
 
 	return (
-		<div>
+		<div className="player-box">
 			<input
 				className="player-name-input"
 				type="text"
